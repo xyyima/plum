@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>com.xyyima.plum</groupId>
 	<artifactId>plumblog</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
-	<name>plumblog</name>
+	<name>plum</name>
 	<description>Plum is an open source blog system.</description>
 
 	<properties>
@@ -65,6 +65,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>plum</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
