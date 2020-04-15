@@ -1,10 +1,10 @@
-package com.xyyima.plum.plumblog;
+package com.xyyima.plum;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PlumblogApplicationTests {
+class PlumApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.xyyima.plum.plumblog;
+package com.xyyima.plum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PlumblogApplication {
+public class PlumApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PlumblogApplication.class, args);
+		SpringApplication.run(PlumApplication.class, args);
 	}
 
 }

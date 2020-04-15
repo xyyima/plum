@@ -17,6 +17,7 @@ steps:
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     effectivePomSkip: false
+    codeCoverageToolOption: 'JaCoCo'
 - task: CopyFiles@2
   displayName: 'Copy Files to artifact staging directory'
   inputs:
