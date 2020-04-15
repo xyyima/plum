@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.xyyima.plum</groupId>
-	<artifactId>plumbolg</artifactId>
+	<artifactId>plumblog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>plumbolg</name>
-	<description>Plum is an open source blog project</description>
+	<packaging>war</packaging>
+	<name>plumblog</name>
+	<description>Plum is an open source blog system.</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -35,9 +36,19 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
